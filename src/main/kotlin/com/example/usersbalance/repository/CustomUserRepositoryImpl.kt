@@ -22,7 +22,6 @@ class CustomUserRepositoryImpl(
                 }.toTypedArray()
 
                 jdbcTemplate.batchUpdate(sql, batchValues)
-                println("Batch!")
             }
     }
 }
